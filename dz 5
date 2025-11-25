@@ -1,0 +1,11 @@
+c = 0 #9
+u = 0               
+t = int(input())    
+while t != 0:       
+    if t > c:
+        c = t  
+        u = 1  
+    elif t == c:
+        u += 1
+    t = int(input())
+print(u)
