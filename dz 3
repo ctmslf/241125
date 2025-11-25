@@ -1,0 +1,14 @@
+h = 0 # 5 номер
+z = 1                                     
+f = int(input())
+while True:
+    n = int(input())
+    if n == 0:
+        break
+    if n == z:
+        z += 1
+        if z > h:
+            h = z
+    else:
+        f = n
+print(h)
