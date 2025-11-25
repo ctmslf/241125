@@ -1,1 +1,10 @@
-
+n = int(input()) # 7
+s = 0           
+while True:  
+    f = int(input())  
+    if f == 0:  
+        break  
+    if f > n:  
+        s += 1  
+    n = f  
+print(s)
